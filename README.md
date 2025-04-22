@@ -7,7 +7,7 @@ A powerful starter kit built with **Next.js**, **Tailwind CSS**, and **Swagger U
         <img alt="website" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/website_vector.svg">
     </a>
     <a href="https://sociabuzz.com/galaxd/p/nextjs-api-starter-kit">
-        <img src="https://github.com/MGalaCyber/Badges/blob/master/sociabuzz.svg" width="376.5px" alt="SociaBuzz"/>
+        <img alt="SociaBuzz" height="56" src="https://github.com/MGalaCyber/Badges/blob/master/sociabuzz.svg"/>
     </a>
 </div>
 
