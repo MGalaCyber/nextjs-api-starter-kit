@@ -137,8 +137,6 @@ X-Api-Key: your-api-key-goes-here
 │   ├── vercel.svg
 │   └── window.svg
 ├── src
-│   ├── actions
-│   │   └── auth.ts
 │   ├── app
 │   │   ├── actions
 │   │   │   └── github.ts
@@ -156,8 +154,6 @@ X-Api-Key: your-api-key-goes-here
 │   │   ├── dashboard
 │   │   │   ├── playground
 │   │   │   │   └── page.tsx
-│   │   │   ├── pricing
-│   │   │   │   └── page.tsx
 │   │   │   └── page.tsx
 │   │   ├── endpoints
 │   │   │   └── route.ts
@@ -173,7 +169,6 @@ X-Api-Key: your-api-key-goes-here
 │   ├── components
 │   │   ├── kokonutui
 │   │   │   ├── stats
-│   │   │   │   ├── account.tsx
 │   │   │   │   └── global.tsx
 │   │   │   ├── content.tsx
 │   │   │   ├── dashboard.tsx
@@ -195,8 +190,6 @@ X-Api-Key: your-api-key-goes-here
 │   │   │   └── tabs.tsx
 │   │   ├── background.tsx
 │   │   ├── footer.tsx
-│   │   ├── login-content.tsx
-│   │   ├── login-form.tsx
 │   │   ├── preloader.tsx
 │   │   ├── theme-provider.tsx
 │   │   ├── theme-toggle.tsx
@@ -216,7 +209,7 @@ X-Api-Key: your-api-key-goes-here
 │   │   ├── auth.ts
 │   │   └── swagger.ts
 │   └── middleware.ts
-├── .env
+├── .env.example
 ├── .gitignore
 ├── components.json
 ├── eslint.config.mjs
