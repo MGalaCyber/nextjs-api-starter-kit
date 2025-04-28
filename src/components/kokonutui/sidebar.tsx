@@ -28,7 +28,7 @@ export default function Sidebar() {
     children,
   }: {
     href: string
-    icon: any
+    icon: React.ComponentType<React.SVGProps<SVGSVGElement>>
     children: React.ReactNode
   }) {
     return (

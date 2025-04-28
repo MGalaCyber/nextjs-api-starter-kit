@@ -9,7 +9,7 @@ interface TypeWriterProps {
   startDelay?: number
 }
 
-export default function TypeWriter({ text, delay = 75, className = "", startDelay = 0 }: TypeWriterProps) {
+export default function TypeWriter({ text, delay = 75, startDelay = 0 }: TypeWriterProps) {
   const [displayText, setDisplayText] = useState("")
   const [isFinished, setIsFinished] = useState(false)
 
@@ -37,5 +37,10 @@ export default function TypeWriter({ text, delay = 75, className = "", startDela
     }
   }, [text, delay, startDelay])
 
-  return displayText
+  return (
+    <span>
+      {displayText}
+      {!isFinished && <span className="blinking-cursor">|</span>}
+    </span>
+  )
 }
