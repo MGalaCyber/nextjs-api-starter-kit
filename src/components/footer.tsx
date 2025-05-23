@@ -11,6 +11,10 @@ export function Footer() {
           </span>
         </div>
 
+        <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-gray-400">
+          <div>© 2025 ‒ {new Date().getFullYear()} <a href="https://galaxd.com" className="text-black dark:text-white">GXD Dev</a>. All rights reserved.</div>
+        </div>
+
         <div className="flex gap-4 sm:gap-6 text-gray-400 text-sm sm:text-base">
           <Link href="/status" className="hover:text-white transition-colors">
             Status

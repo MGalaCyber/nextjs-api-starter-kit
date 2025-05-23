@@ -1,7 +1,7 @@
 "use client"
 
 import { Preloader } from "@/components/preloader"
-import Layout from "@/components/kokonutui/layout"
+import Layout from "@/components/dash/layout"
 import dynamic from "next/dynamic"
 
 const SwaggerUI = dynamic(() => import("swagger-ui-react"), { ssr: false })

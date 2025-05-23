@@ -6,16 +6,6 @@ const nextConfig: NextConfig = {
         remotePatterns: [
             {
                 protocol: "https",
-                hostname: "galaa.my.id",
-                pathname: "**",
-            },
-            {
-                protocol: "https",
-                hostname: "galaxd.dev",
-                pathname: "**",
-            },
-            {
-                protocol: "https",
                 hostname: "cdn.pixabay.com",
                 pathname: "**",
             },
@@ -25,17 +15,17 @@ const nextConfig: NextConfig = {
         return [
             {
                 source: "/p/discord",
-                destination: "https://discord.gg/myhtfAbauc",
+                destination: "https://portal.universesmp.xyz/p/discord",
                 permanent: true,
             },
             {
                 source: "/p/whatsapp",
-                destination: "https://whatsapp.com/channel/0029VaXL8Vc4o7qG33MYjE3T",
+                destination: "https://portal.universesmp.xyz/p/whatsapp",
                 permanent: true,
             },
             {
                 source: "/p/telegram",
-                destination: "https://t.me/GalaxyUniverseOfficial",
+                destination: "https://appeal.universesmp.xyz",
                 permanent: true,
             },
             {
@@ -44,8 +34,18 @@ const nextConfig: NextConfig = {
                 permanent: true,
             },
             {
-                source: "/p/upgrade",
-                destination: "https://sociabuzz.com/galaxd/p/nextjs-api-starter-kit",
+                source: "/p/tos",
+                destination: "https://legal.galaxd.com/project/website/nextjs-api-starter-kit",
+                permanent: true,
+            },
+            {
+                source: "/p/privacy",
+                destination: "https://legal.galaxd.com/project/website/nextjs-api-starter-kit",
+                permanent: true,
+            },
+            {
+                source: "/p/cookie",
+                destination: "https://en.wikipedia.org/wiki/HTTP_cookie",
                 permanent: true,
             },
         ]
