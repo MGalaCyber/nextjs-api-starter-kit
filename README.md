@@ -34,7 +34,7 @@ password: demo
 
 <div align="center" style"border-radius:15px">
     <a href="https://sociabuzz.com/galaxd/p/nextjs-api-starter-kit">
-        <img alt="SociaBuzz" height="40" src="https://github.com/MGalaCyber/Badges/blob/master/sociabuzz.svg"/>
+        <img alt="SociaBuzz" height="50" src="https://github.com/MGalaCyber/Badges/blob/master/sociabuzz.svg"/>
     </a>
 </div>
 

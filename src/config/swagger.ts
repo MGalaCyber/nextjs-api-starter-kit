@@ -1,6 +1,7 @@
 import { errorSchemas, wrapSchemaWithResponse } from "./swaggerCompiler";
 import { SwaggerTypes } from "@/types/swagger";
-import { version } from "../../package.json"
+import pkg from "@root/package.json";
+const version = pkg.version;
 
 export const SwaggerJson: SwaggerTypes = {
     openapi: "3.0.1",
