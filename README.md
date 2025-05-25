@@ -75,6 +75,18 @@ password: demo
 - 🔑 API Key system with rate limiting
 - 📁 Clean and modular project structure
 
+## 🧰 Developer Features
+- 🧬 Auto Component & API Generator
+  - Automatically generate TypeScript API endpoints, types, and client components from OpenAPI or Swagger schema.
+- 🔄 Dynamic Client SDK Generation
+  - Auto-generate fetch wrappers or React hooks from OpenAPI schema (`useApi` style).integration.
+- 🔍 Integrated Request Inspector
+  - View real-time request/response logs inside dashboard (for debugging API keys or endpoints).
+- 🧪 Mock Server Support
+  - Built-in support for mock API responses (for testing frontend without real backend).
+- 🔁 Auto-generate JSON response structure
+  - Automatically produce structured JSON examples for Swagger/OpenAPI `responses` section, based on validation schema or model definitions.
+
 ### 🆚 Free vs Premium Comparison
 
 | FEATURES                              |   FREE   | PREMIUM |
@@ -285,6 +297,8 @@ curl -X 'GET' \
 │   │   ├── layout.tsx
 │   │   ├── not-found.tsx
 │   │   └── page.tsx
+│   │   └── robots.ts
+│   │   └── sitemap.ts
 │   ├── components
 │   │   ├── dash
 │   │   │   ├── stats
@@ -360,7 +374,6 @@ curl -X 'GET' \
 ├── LICENSE
 ├── next.config.ts
 ├── package.json
-├── pnpm-lock.yaml
 ├── postcss.config.mjs
 ├── README.md
 ├── tailwind.config.ts
@@ -466,7 +479,6 @@ curl -X 'GET' \
 ├── next-env.d.ts
 ├── next.config.ts
 ├── package.json
-├── pnpm-lock.yaml
 ├── postcss.config.mjs
 ├── README.md
 ├── tailwind.config.ts
